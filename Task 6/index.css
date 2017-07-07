@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width : 980px;
+    height: 1386px;
+    margin:0 auto;
+    padding: 0 45px ;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #938e8c;
+    overflow: auto;
+}
+
+.header{
+    font:12px "黑体";
+}
+
+.header>.publisher{
+    width: 110px;
+    height:61px;
+    padding-top:44px;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #d45d5c;
+}
+
+.header>.issue{
+    float: right;
+    color: #d45d5c;
+    padding-top:44px;
+}
+
+.header+hr{
+    background-color: #938e8c;
+    height: 2px;
+    border:0;
+}
+
+.content{
+    padding-top:30px;
+    padding-bottom: 40px;
+}
+
+.cover{
+    width:100%;
+}
+
+.cover>img{
+    width: 641px;
+    height:301px;
+}
+
+.cover>.cover-info{
+    display: block;
+    float: right;
+    width: 200px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #cc8091;
+    font-family: "微软雅黑";
+}
+
+.cover>.cover-info>.cover-info-title{
+    padding-top: 7px;
+    padding-bottom: 3px;
+}
+
+.cover>.cover-info>.cover-info-title>p{
+    font-size: 24px;
+    color: #000;
+    text-decoration: underline;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+.cover>.cover-info>.cover-info-title-info>p{
+    font-style: italic;
+    font-size:12px;
+    color: #676767;
+    font-family: "楷体";
+    line-height: 10px;
+}
+
+.cover>.cover-info>.cover-info-title-info>#green {
+    color: #75b86b;
+    font-style: oblique;
+    font-size: 116px;
+    font-weight: 600;
+    margin-left: -25px;
+}
+
+.cover>.cover-info>.cover-info-title-info>#pink>#pink_main{
+    color: #cc8091;
+    font-size: 55px;
+    display: inline-block;
+}
+
+.cover>.cover-info>.cover-info-title-info>#pink>#pink_sub{
+    display: inline-block;
+}
+
+.cover>.cover-info>.cover-info-title-info>#pink>#pink_sub>div:nth-child(1){
+    font-size: 21px;
+    color: #cc8091;
+}
+
+.cover>.cover-info>.cover-info-title-info>#pink>#pink_sub>div:nth-child(2){
+    font-size: 12px;
+    color: silver;
+}
