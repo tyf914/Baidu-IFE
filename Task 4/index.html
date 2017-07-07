@@ -1,5 +1,46 @@
 <!Doctype HTML>
 <html>
-  <head><title>Task 4</title></head>
-  <body></body>
+<head><title>Task 4</title>
+    <style>
+        .container {
+            height: 200px;
+            width: 400px;
+            background-color: #ccc;
+            margin:0 auto;
+            /*这里用了calc()来计算*/
+            position: relative;
+            top: calc(50vh - 100px);
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .top-left-area, .bottom-right-area {
+            background-color: yellow;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+        }
+
+        .top-left-area {
+            top: 0;
+            left: 0;
+            border-bottom-right-radius: 50px;
+        }
+
+        .bottom-right-area {
+            bottom: 0;
+            right: 0;
+            border-top-left-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="top-left-area"></div>
+    <div class="bottom-right-area"></div>
+</div>
+</body>
 </html>
